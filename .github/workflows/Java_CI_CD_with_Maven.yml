@@ -66,7 +66,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'java2'
+          app-name: 'calculadoraingsof'
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_706190f3c1e6406b94034122708e93ed }}
           package: '*.war'
