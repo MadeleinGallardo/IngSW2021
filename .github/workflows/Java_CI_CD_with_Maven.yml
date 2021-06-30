@@ -68,7 +68,7 @@ jobs:
         with:
           app-name: 'java2'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_04744409f63d412daf4579a799b2ca1f }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_706190f3c1e6406b94034122708e93ed }}
           package: '*.war'
           
       - name: test success
